@@ -1,0 +1,114 @@
+#frame{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 60px 70px 180px 30px 180px 70px 60px;
+  border: 1px solid black;
+  padding: 10px 0px 10px 10px;
+}
+
+#floor1{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+#floor2{
+  grid-column:1/4 ;
+  grid-row: 2/3;
+}
+
+#floor3{
+  grid-column: 1/4;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5,1fr);
+}
+#floor4{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+#floor5{
+  grid-column: 1/4;
+  grid-row: 5/6;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5,1fr);
+}
+#floor6{
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+#floor7{
+  grid-column: 2/4;
+  grid-row: 7/8;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.resultBox1{
+  border: 1px solid black;
+  margin: 0px 10px 10px 0px;
+  display: grid;
+  place-items: center;
+}
+
+.playerBox1{
+  border: 1px solid black;
+  margin: 0px 10px 10px 0px;
+  display: grid;
+  place-items: center;
+}
+
+.handBox{
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.startBox{
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  margin-right: 10px;
+}
+
+.resultBox2{
+  border: 1px solid black;
+  margin-right: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.playerBox2{
+  border: 1px solid black;
+  margin: 0px 10px 0px 0px;
+  display: grid;
+  place-items: center;
+}
+
+.parentTrump_box{
+  margin-bottom: 10px;
+}
+
+.childTrump_box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.trumpWaku{
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+
+img{
+  width: 100px;
+}

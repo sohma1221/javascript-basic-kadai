@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/javascript_general_mission_5_1.css" />
+    <title>JavaScriptの学習</title>
+  </head>
+  <body>
+    <h1>JavaScript応用編 / 総合課題5：ポーカーゲームの課題</h1>
+    <div id="frame">
+      <div id="floor1">
+        <div id="parentResult" class="resultBox1">勝ちor負けor引き分け</div>
+        <div class="playerBox1">親</div>
+      </div>
+
+      <div id="floor2" class="handBox">親の役名を表示</div>
+
+      <div id="floor3" class="parentTrump_box">
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+      </div>
+
+      <div id="floor4" class="startBox" onclick="gamaeStart()">ゲームスタート</div>
+
+      <div id="floor5" class="childTrump_box">
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+        <div class="trumpWaku"><img src="" alt=""></div>
+      </div>
+
+      <div id="floor6" class="handBox">子の役名を表示</div>
+
+      <div id="floor7">
+        <div class="playerBox2">子</div>
+        <div id="childResult" class="resultBox2">勝ちor負けor引き分け</div>
+      </div>
+    </div>
+    <script src="js/javascript_general_mission_5_1.js"></script>
+    <!--//フォルダ名jsの中のjavascript_general_mission_5_1.jsというファイルを読み込む-->
+  </body>
+</html>
